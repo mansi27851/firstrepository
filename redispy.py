@@ -11,7 +11,7 @@ client = redis.StrictRedis(host=redis_host, port=redis_port, decode_responses=Tr
 print(client) 
  
 client.ping() 
-print("connection Done") 
+print("successfully") 
 # if client: 
 #     print("connecetd") 
 # else: 
