@@ -3,7 +3,7 @@ import redis
 # Connect to the Redis server 
 redis_host = 'myrediscache-ewccmb.serverless.apse1.cache.amazonaws.com' 
 redis_port = 6379 
-redis_password = None  # Add password if your Redis server requires authentication 
+redis_password = Mansi@123  # Add password if your Redis server requires authentication 
  
 # Create a Redis client 
 client = redis.StrictRedis(host=redis_host, port=redis_port, decode_responses=True) 
